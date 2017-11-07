@@ -1,0 +1,62 @@
+/* An External Style Sheet */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	overflow: hidden;
+	background-color: #333  
+	position: fixed;
+	top: 0;
+	width: 100%; 	
+}
+li {    
+	float: left;
+	border-right: 1px solid #bbb;
+}
+li a {
+      display: block;
+	  color: white;
+	  text-align: center;
+	  padding: 15px 45px;
+	  text-decoration: none;
+}
+li a:hover {
+            background-color: #111;
+}
+.active {
+         background-color: #FFFFFF
+}
+#copyright{
+    background-color:black ;
+    color:white;
+    padding:10px;
+    text-align:center;
+    font-size:12pt;
+	font-family: Goudy Old Style;
+}
+body {margin:0;}
+ 	
+
+.active {
+         background-color: #FFFFFF
+}
+.parallax {
+           background-image : url("https://images.fineartamerica.com/images-medium-large-5/caseys-barn-black-and-white-thomas-schoeller.jpg");
+		   min-height: 700px;
+		   background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+            position: relative;
+			text-align: center;
+			color: white;
+}
+.centered {
+           position: absolute;
+		   top: 50%;
+		   left: 50%;
+		   transform: translate(-50%, -50%);
+		 
+}
